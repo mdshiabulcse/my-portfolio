@@ -1,0 +1,579 @@
+/* Project-specific styles */
+
+/* Project logos and images */
+.project-logo {
+    max-height: 50px;
+    margin-bottom: 15px;
+}
+
+/* Project categories */
+.project-category {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 10;
+}
+
+/* Projects Slider - Optimized for better display */
+.projects-slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    padding-bottom: 40px;
+    max-width: 1200px; /* Control max width for better UX */
+    width: 90%; /* Better responsive width */
+}
+
+.projects-slider {
+    display: flex;
+    transition: transform 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    width: 100%;
+    will-change: transform; /* Performance optimization */
+}
+
+.slider-project-card {
+    min-width: calc(33.333% - 30px); /* Standard width for 3 cards display */
+    margin-right: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    height: 420px; /* Increased height for comprehensive content display */
+    display: flex;
+    flex-direction: column;
+    background: var(--light-color) === '#f5f7fa' ? '#fff' : '#1e293b';
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.08); /* Subtle border for definition */
+}
+
+/* Improve image size in slider */
+.slider-project-card .project-img {
+    height: 180px; /* Standard image height */
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    width: 100%;
+    object-position: center;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Make sure content area has appropriate padding */
+.slider-project-card .project-content {
+    padding: 18px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden; /* Prevent scrollbar */
+    max-height: 240px; /* Increased height for content */
+    justify-content: space-between; /* Ensure tech badges stay at bottom */
+    font-family: 'Roboto', 'Open Sans', sans-serif; /* Standard font family */
+}
+
+/* Ensure project description is properly displayed */
+.slider-project-card .project-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Reduced to ensure tech badges are visible */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+}
+
+.slider-project-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.projects-slider-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 60px; /* Increased for better control spacing */
+    border-radius: 15px;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+/* Enhanced slider navigation */
+.slider-control-btn {
+    background: rgba(52, 152, 219, 0.2);
+    border: none;
+    width: 45px; /* Larger buttons */
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.slider-control-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.slider-control-btn i {
+    font-size: 18px; /* Larger icons */
+}
+
+/* Improved projects-slider-container styling */
+.projects-slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 30px 20px;
+    padding-bottom: 70px;
+    border-radius: 12px;
+    max-width: 1200px; /* Control max width for better UX */
+    width: 95%; /* Better responsive width */
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    background: var(--light-color) === '#f5f7fa' ? '#f8f9fa' : '#1a2234';
+}
+
+/* Standard section header styling */
+.section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--dark-color);
+    position: relative;
+    padding-bottom: 15px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+.section h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
+.slider-control-btn {
+    background: rgba(52, 152, 219, 0.2);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.slider-control-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.slider-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(52, 152, 219, 0.3);
+    margin: 0 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.slider-dot.active {
+    background: var(--primary-color);
+    transform: scale(1.3);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Enhanced view more button */
+.view-more-btn {
+    display: block;
+    margin: 40px auto 20px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.view-more-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.view-more-btn:hover {
+    background: #2980b9;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(52, 152, 219, 0.5);
+}
+
+.view-more-btn:hover:before {
+    width: 100%;
+}
+
+.view-more-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+.view-more-btn {
+    display: block;
+    margin: 30px auto 0;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.view-more-btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+}
+
+.projects-grid.hidden {
+    display: none;
+}
+
+.projects-grid.visible {
+    animation: fadeIn 0.8s ease;
+}
+
+/* Responsive slider */
+@media (max-width: 992px) {
+    .slider-project-card {
+        min-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-project-card {
+        min-width: calc(100% - 20px);
+    }
+}
+
+/* Project status badges */
+.project-status {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(46, 204, 113, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 10;
+}
+
+.project-status.ongoing {
+    background: rgba(241, 196, 15, 0.8);
+}
+
+/* Project hover effects */
+.project-card {
+    position: relative;
+    overflow: hidden;
+    height: 380px; /* Adjusted height to match slider cards */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(52, 152, 219, 0) 0%, rgba(52, 152, 219, 0.8) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.project-card:hover::before {
+    opacity: 1;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-img {
+    transition: transform 0.5s ease;
+    height: 180px; /* Adjusted to match slider */
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden; /* Prevent scrollbar from appearing */
+    max-height: 250px;
+}
+
+/* Project title with improved styling */
+.project-title {
+    font-size: 1.25rem;
+    margin-bottom: 14px;
+    color: var(--dark-color);
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+    letter-spacing: 0.3px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    line-height: 1.3;
+}
+
+.project-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* Ensure project description is properly displayed */
+.slider-project-card .project-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show 3 lines of description */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-color);
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+/* Technology badges with different colors */
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 5;
+}
+
+/* Live View Button */
+.project-live-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.project-live-btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-live-btn i {
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+.project-tech span {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.75);
+    min-width: 70px;
+    text-align: center;
+    height: 26px;
+}
+
+/* Enhanced tech badge colors with distinct branding */
+.project-tech span.laravel { background: rgba(255, 45, 32, 0.15); color: #ff2d20; }
+.project-tech span.bootstrap { background: rgba(86, 61, 124, 0.15); color: #563d7c; }
+.project-tech span.mysql { background: rgba(0, 117, 143, 0.15); color: #00758f; }
+.project-tech span.vue { background: rgba(65, 184, 131, 0.15); color: #41b883; }
+.project-tech span.react { background: rgba(97, 218, 251, 0.15); color: #61dafb; }
+.project-tech span.php { background: rgba(119, 123, 179, 0.15); color: #777bb3; }
+.project-tech span.javascript { background: rgba(247, 223, 30, 0.15); color: #f7df1e; }
+.project-tech span.html { background: rgba(228, 77, 38, 0.15); color: #e44d26; }
+.project-tech span.css { background: rgba(33, 150, 243, 0.15); color: #2196f3; }
+
+.project-tech span:nth-child(1) { background: rgba(52, 152, 219, 0.2); }
+.project-tech span:nth-child(2) { background: rgba(46, 204, 113, 0.2); }
+.project-tech span:nth-child(3) { background: rgba(155, 89, 182, 0.2); }
+.project-tech span:nth-child(4) { background: rgba(241, 196, 15, 0.2); }
+.project-tech span:nth-child(5) { background: rgba(230, 126, 34, 0.2); }
+
+/* Enhanced Skills and Languages Section */
+.skill-category {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skill-category h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: var(--dark-color);
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.skill-category h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    padding: 6px 12px;
+    border-radius: 30px;
+    background: rgba(52, 152, 219, 0.1);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.skills span:hover {
+    background: rgba(52, 152, 219, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Section description styling */
+.section-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: var(--text-light);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Project grid layout for larger screens - more consistent sizing */
+@media (min-width: 992px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+    }
+
+    /* Equal height for all cards */
+    .project-card {
+        grid-row: span 1;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projects-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
