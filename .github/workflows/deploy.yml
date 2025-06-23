@@ -1,21 +1,21 @@
-name: 🚀 Deploy HTML folder to Hostinger
+name: 🚀 Deploy to Hostinger via FTP
 
 on:
   push:
     branches:
-      - main  # Or your active branch
+      - main  # Trigger deployment only on push to main branch
 
 jobs:
   deploy:
-    name: 📂 Upload /html folder contents
+    name: 📂 Upload files to Hostinger
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
       - name: 🔄 Deploy html/ folder via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
