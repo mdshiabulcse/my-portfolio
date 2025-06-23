@@ -1,4 +1,4 @@
-name: 🚀 Deploy to Hostinger via FTP use github
+name: 🚀 Deploy to Hostinger via FTP
 
 on:
   push:
@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: FTP deploy html folder
+      - name: FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/   # <- Note trailing slash
-          local-dir: html/            # <- Note trailing slash
+          server-dir: ${{ secrets.FTP_TARGET }}
+          local-dir: html/
           exclude: |
             **/.git*
             **/.github/**
