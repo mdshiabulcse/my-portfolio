@@ -3,7 +3,7 @@ name: 🚀 Deploy to Hostinger via FTP
 on:
   push:
     branches:
-      - main  # Trigger deployment only on push to main branch
+      - main
 
 jobs:
   deploy:
@@ -21,7 +21,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_TARGET }}
-          local-dir: html
+          local-dir: html/           # ✅ FIXED: Now ends with a slash
           exclude: |
             **/.git*
             **/.github/**
