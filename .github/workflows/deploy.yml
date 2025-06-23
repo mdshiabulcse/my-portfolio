@@ -1,4 +1,4 @@
-name: 🚀 Deploy to Hostinger via FTP
+name: 🚀 Deploy to Hostinger via FTP use github
 
 on:
   push:
@@ -19,8 +19,8 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_TARGET }}
-          local-dir: html/
+          server-dir: /public_html/   # <- Note trailing slash
+          local-dir: html/            # <- Note trailing slash
           exclude: |
             **/.git*
             **/.github/**
