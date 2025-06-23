@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -709,10 +711,10 @@
             <i class="fas fa-map-marker-alt"></i>
             <span data-translate="location">Dhaka, Bangladesh</span>
         </div>
-        <div class="contact-item">
-            <i class="fas fa-phone"></i>
-            <a href="tel:+8801700000000">+880 1700 000000</a>
-        </div>
+<!--        <div class="contact-item">-->
+<!--            <i class="fas fa-phone"></i>-->
+<!--            <a href="tel:+8801700000000">+880 1700 000000</a>-->
+<!--        </div>-->
         <div class="contact-item">
             <i class="fas fa-globe"></i>
             <a href="https://www.example.com" target="_blank">www.example.com</a>
