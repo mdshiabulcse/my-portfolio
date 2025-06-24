@@ -1206,7 +1206,7 @@
             <div class="testimonial-item">
                 <p class="testimonial-text" data-translate="testimonial1-text">Working with Shiabul was a pleasure. He quickly understood our requirements and implemented elegant solutions to complex problems. A true professional!</p>
                 <div class="testimonial-author">
-                    <img src="assets/img/testimonial/testimonial.png" alt="John Doe">
+                    <img src="assets/img/testimonial/testimonial.png" alt="Philip lungu">
                     <div class="author-info">
                         <h4 data-translate="testimonial1-name">Philip lungu</h4>
                         <p data-translate="testimonial1-position">Director, ugzambia.com pos system</p>
@@ -1217,7 +1217,7 @@
             <div class="testimonial-item">
                 <p class="testimonial-text" data-translate="testimonial2-text">Developer tried to help to implement complex logic and will surely continue to work with him.</p>
                 <div class="testimonial-author">
-                    <img src="assets/img/testimonial/testimonial.png" alt="Jane Smith">
+                    <img src="assets/img/testimonial/testimonial.png" alt="Gizm 0dder">
                     <div class="author-info">
                         <h4 data-translate="testimonial2-name">Gizm 0dder</h4>
                         <p data-translate="testimonial2-position">CEO, Care Connect</p>
@@ -1249,8 +1249,8 @@
         <div class="social-links">
             <a href="https://linkedin.com/in/md-shiabul-islam" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/mdshiabulcse" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/ShakibShiabul" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/shiabulislam/#" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <p data-translate="copyright">© 2025 Md. Shiabul Islam. All rights reserved.</p>
     </footer>
@@ -1347,12 +1347,12 @@
             'more-projects-title': 'More Projects',
             'more-projects-desc': 'Explore my complete portfolio of projects across various domains and technologies.',
             'testimonials-title': 'Testimonials',
-            'testimonial1-text': 'Shiabul is an exceptional developer who delivered our hospital management system on time and exceeded our expectations. His technical skills and attention to detail are impressive.',
-            'testimonial1-name': 'Dr. John Doe',
-            'testimonial1-position': 'Medical Director, Vision Eye Hospital',
-            'testimonial2-text': 'Working with Shiabul was a pleasure. He quickly understood our requirements and implemented elegant solutions to complex problems. A true professional!',
-            'testimonial2-name': 'Jane Smith',
-            'testimonial2-position': 'CEO, Agile Tech Solution',
+            'testimonial1-text': 'Working with Shiabul was a pleasure. He quickly understood our requirements and implemented elegant solutions to complex problems. A true professional!',
+            'testimonial1-name': 'Philip lungu',
+            'testimonial1-position': 'Director, ugzambia.com pos system',
+            'testimonial2-text': 'Developer tried to help to implement complex logic and will surely continue to work with him.',
+            'testimonial2-name': 'Gizm 0dder',
+            'testimonial2-position': 'Care Connect',
             'education-title': 'Education & Certifications',
             'edu1-degree': 'B.Sc. in Computer Science & Engineering',
             'edu1-period': 'Southeast University | Aug 2022 – Present',
@@ -1420,10 +1420,10 @@
             'more-projects-desc': 'Explorez mon portfolio complet de projets dans divers domaines et technologies.',
             'testimonials-title': 'Témoignages',
             'testimonial1-text': 'Shiabul est un développeur exceptionnel qui a livré notre système de gestion hospitalière à temps et dépassé nos attentes. Ses compétences techniques et son attention aux détails sont impressionnantes.',
-            'testimonial1-name': 'Dr. John Doe',
+            'testimonial1-name': 'Dr. Philip lungu',
             'testimonial1-position': 'Directeur Médical, Vision Eye Hospital',
             'testimonial2-text': 'Travailler avec Shiabul était un plaisir. Il a rapidement compris nos exigences et mis en œuvre des solutions élégantes à des problèmes complexes. Un vrai professionnel !',
-            'testimonial2-name': 'Jane Smith',
+            'testimonial2-name': 'Gizm 0dder',
             'testimonial2-position': 'PDG, Agile Tech Solution',
             'education-title': 'Éducation & Certifications',
             'edu1-degree': 'Licence en Informatique et Ingénierie',
@@ -1492,11 +1492,11 @@
             'more-projects-desc': 'Explore mi portfolio completo de proyectos en diversos dominios y tecnologías.',
             'testimonials-title': 'Testimonios',
             'testimonial1-text': 'Shiabul es un desarrollador excepcional que entregó nuestro sistema de gestión hospitalaria a tiempo y superó nuestras expectativas. Sus habilidades técnicas y atención al detalle son impresionantes.',
-            'testimonial1-name': 'Dr. John Doe',
+            'testimonial1-name': 'Dr. Philip lungu',
             'testimonial1-position': 'Director Médico, Vision Eye Hospital',
             'testimonial2-text': 'Trabajar con Shiabul fue un placer. Comprendió rápidamente nuestros requisitos e implementó soluciones elegantes para problemas complejos. ¡Un verdadero profesional!',
-            'testimonial2-name': 'Jane Smith',
-            'testimonial2-position': 'CEO, Agile Tech Solution',
+            'testimonial2-name': 'Gizm 0dder',
+            'testimonial2-position': 'Care Connect',
             'education-title': 'Educación y Certificaciones',
             'edu1-degree': 'Licenciatura en Ciencias de la Computación e Ingeniería',
             'edu1-period': 'Universidad Southeast | Agosto 2022 – Presente',
@@ -1558,10 +1558,10 @@
             'view-less': '收起项目',
             'testimonials-title': '客户评价',
             'testimonial1-text': 'Shiabul是一位出色的开发人员，他按时交付了我们的医院管理系统，并超出了我们的期望。他的技术技能和对细节的关注令人印象深刻。',
-            'testimonial1-name': 'John Doe医生',
+            'testimonial1-name': 'Philip lungu医生',
             'testimonial1-position': '医疗主任，Vision眼科医院',
             'testimonial2-text': '与Shiabul合作是一种愉快的体验。他快速理解我们的需求，并为复杂问题实现了优雅的解决方案。一位真正的专业人士！',
-            'testimonial2-name': 'Jane Smith',
+            'testimonial2-name': 'Gizm 0dder',
             'testimonial2-position': '首席执行官，Agile Tech Solution',
             'education-title': '教育与认证',
             'copyright': '© 2025 Md. Shiabul Islam. 保留所有权利。',
@@ -1618,10 +1618,10 @@
             'view-less': '閉じる',
             'testimonials-title': '推薦の声',
             'testimonial1-text': 'Shiabulは優れた開発者で、私たちの病院管理システムを期限通りに納品し、期待を超えました。彼の技術的スキルと細部への注意は印象的です。',
-            'testimonial1-name': 'Dr. John Doe',
+            'testimonial1-name': 'Philip lungu',
             'testimonial1-position': '医療ディレクター、Vision Eye Hospital',
             'testimonial2-text': 'Shiabulとの仕事は喜びでした。彼は私たちの要件を素早く理解し、複雑な問題に対してエレガントなソリューションを実装しました。真のプロフェッショナルです！',
-            'testimonial2-name': 'Jane Smith',
+            'testimonial2-name': 'Gizm 0dder',
             'testimonial2-position': 'CEO、Agile Tech Solution',
             'education-title': '教育と資格',
             'copyright': '© 2025 Md. Shiabul Islam. All rights reserved.',
