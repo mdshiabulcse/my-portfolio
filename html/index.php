@@ -717,7 +717,7 @@
 <!--        </div>-->
         <div class="contact-item">
             <i class="fas fa-globe"></i>
-            <a href="https://www.example.com" target="_blank">www.example.com</a>
+            <a href="https://www.shiabul.com" target="_blank">www.shiabul.com</a>
         </div>
     </div>
 
@@ -1204,23 +1204,23 @@
         <h2 data-translate="testimonials-title">Testimonials</h2>
         <div class="testimonials">
             <div class="testimonial-item">
-                <p class="testimonial-text" data-translate="testimonial1-text">Shiabul is an exceptional developer who delivered our hospital management system on time and exceeded our expectations. His technical skills and attention to detail are impressive.</p>
+                <p class="testimonial-text" data-translate="testimonial1-text">Working with Shiabul was a pleasure. He quickly understood our requirements and implemented elegant solutions to complex problems. A true professional!</p>
                 <div class="testimonial-author">
-                    <img src="assets/img/liveProjectLogo/100?text=JD" alt="John Doe">
+                    <img src="assets/img/testimonial/testimonial.png" alt="John Doe">
                     <div class="author-info">
-                        <h4 data-translate="testimonial1-name">Dr. John Doe</h4>
-                        <p data-translate="testimonial1-position">Medical Director, Vision Eye Hospital</p>
+                        <h4 data-translate="testimonial1-name">Philip lungu</h4>
+                        <p data-translate="testimonial1-position">Director, ugzambia.com pos system</p>
                     </div>
                 </div>
             </div>
 
             <div class="testimonial-item">
-                <p class="testimonial-text" data-translate="testimonial2-text">Working with Shiabul was a pleasure. He quickly understood our requirements and implemented elegant solutions to complex problems. A true professional!</p>
+                <p class="testimonial-text" data-translate="testimonial2-text">Developer tried to help to implement complex logic and will surely continue to work with him.</p>
                 <div class="testimonial-author">
-                    <img src="assets/img/liveProjectLogo/100?text=JS" alt="Jane Smith">
+                    <img src="assets/img/testimonial/testimonial.png" alt="Jane Smith">
                     <div class="author-info">
-                        <h4 data-translate="testimonial2-name">Jane Smith</h4>
-                        <p data-translate="testimonial2-position">CEO, Agile Tech Solution</p>
+                        <h4 data-translate="testimonial2-name">Gizm 0dder</h4>
+                        <p data-translate="testimonial2-position">CEO, Care Connect</p>
                     </div>
                 </div>
             </div>
