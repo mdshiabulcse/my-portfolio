@@ -1075,9 +1075,9 @@
                 <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Corporate</div>
-                    <img src="assets/img/liveProjectLogo/400x250?text=Hexagon+Global" alt="Hexagon Global" class="project-img">
+                    <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/150x50?text=Hexagon+Logo" alt="Hexagon Global Logo" class="project-logo">
+                        <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>
                         <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>
                         <div class="project-tech">
@@ -1095,9 +1095,9 @@
                 <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Education</div>
-                    <img src="assets/img/liveProjectLogo/400x250?text=BAVIS" alt="BAVIS" class="project-img">
+                    <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/150x50?text=BAVIS+Logo" alt="BAVIS Logo" class="project-logo">
+                        <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project5-title">BAVIS</h3>
                         <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>
                         <div class="project-tech">
@@ -1115,9 +1115,9 @@
                 <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Healthcare</div>
-                    <img src="assets/img/liveProjectLogo/400x250?text=Dristi+Eye+Hospital" alt="Dristi Eye Hospital" class="project-img">
+                    <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/150x50?text=Dristi+Logo" alt="Dristi Eye Hospital Logo" class="project-logo">
+                        <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project6-title">Dristi Eye Hospital</h3>
                         <p data-translate="project6-desc">Complete hospital management system with electronic medical records, appointment scheduling, and integrated website with online booking functionality.</p>
                         <div class="project-tech">
@@ -1141,9 +1141,12 @@
             <div class="project-card">
                 <div class="project-status">Completed</div>
                 <div class="project-category">Healthcare</div>
-                <img src="assets/img/liveProjectLogo/400x250?text=Doctuch" alt="Doctuch" class="project-img">
+<!--                <img src="assets/img/liveProjectLogo/400x250?text=Doctuch" alt="Doctuch" class="project-img">-->
+<!--                <div class="project-content">-->
+<!--                    <img src="assets/img/liveProjectLogo/150x50?text=Doctuch+Logo" alt="Doctuch Logo" class="project-logo">-->
+                <img src="assets/img/liveProjectLogo/doctuc-sq.png" alt="Doctuch" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/150x50?text=Doctuch+Logo" alt="Doctuch Logo" class="project-logo">
+                    <img src="assets/img/liveProjectLogo/doctuc-hz.png" alt="Doctuch Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project7-title">Doctuch</h3>
                     <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>
                     <div class="project-tech">
@@ -1161,9 +1164,9 @@
             <div class="project-card">
                 <div class="project-status ongoing">Ongoing</div>
                 <div class="project-category">Web Application</div>
-                <img src="assets/img/liveProjectLogo/400x250?text=SearchDin" alt="SearchDin" class="project-img">
+                <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/150x50?text=SearchDin+Logo" alt="SearchDin Logo" class="project-logo">
+                    <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project8-title">SearchDin</h3>
                     <p data-translate="project8-desc">Advanced search engine with intelligent indexing, natural language processing, and sophisticated search algorithms for improved search experiences.</p>
                     <div class="project-tech">
@@ -1181,9 +1184,9 @@
             <div class="project-card">
                 <div class="project-status">Completed</div>
                 <div class="project-category">Medical Organization</div>
-                <img src="assets/img/liveProjectLogo/400x250?text=BGS+Glaucoma" alt="BGS Glaucoma" class="project-img">
+                <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/150x50?text=BGS+Logo" alt="BGS Glaucoma Logo" class="project-logo">
+                    <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project9-title">BGS Glaucoma</h3>
                     <p data-translate="project9-desc">Professional organization platform for glaucoma specialists featuring member management, resource sharing, event coordination and educational content distribution.</p>
                     <div class="project-tech">
