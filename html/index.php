@@ -978,17 +978,7 @@
                 </div>
             </div>
 
-            <div class="slider-controls">
-                <button class="slider-control-btn slider-prev" aria-label="Previous slide">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="slider-control-btn slider-pause-play" aria-label="Pause/play slideshow">
-                    <i class="fas fa-pause"></i>
-                </button>
-                <button class="slider-control-btn slider-next" aria-label="Next slide">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
+
 
             <div class="slider-dots">
                 <span class="slider-dot active"></span>
@@ -1019,6 +1009,7 @@
                             <span>Vue.js</span>
                             <span>MySQL</span>
                             <span>Bootstrap</span>
+                            <span>Ubuntu</span>
                         </div>
                         <div class="project-links">
                             <a href="http://visioneyebd.org/" target="_blank"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
@@ -1139,6 +1130,7 @@
                     <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>
                     <div class="project-tech">
                         <span>Laravel</span>
+                        <span>Vue JS</span>
                         <span>Bootstrap</span>
                         <span>MySQL</span>
                         <span>jQuery</span>
