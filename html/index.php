@@ -723,7 +723,11 @@
 
     <div class="section">
         <h2 data-translate="summary-title">Career Summary</h2>
-        <p data-translate="summary-content">Seasoned software developer skilled in both frontend and backend development, particularly with PHP (Laravel) and JavaScript (Vue.js). Experienced in Linux-based server management, ERP systems, and healthcare tech solutions.</p>
+        <p data-translate="summary-content">Skilled Full-Stack Web Developer with strong experience in building scalable HMIS, POS, and business web
+            applications using Vue.js, Laravel, CodeIgniter, and MySQL. Proficient in Ubuntu server management,
+            Docker, and CI/CD pipelines with GitHub Actions. Focused on delivering clean, secure, and maintainable
+            code across full development lifecycles.
+        </p>
     </div>
 
     <div class="section">
@@ -807,7 +811,6 @@
                     <div class="project-category">Healthcare</div>
                     <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project1-title">Vision Eye Hospital</h3>
                         <p data-translate="project1-desc">Complete hospital management system including patient records, appointment scheduling, POS system for optical shop, HR management and accounting modules.</p>
                         <div class="project-tech">
@@ -827,7 +830,6 @@
                     <div class="project-category">Non-profit</div>
                     <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project2-title">Vision Aid Foundation</h3>
                         <p data-translate="project2-desc">A foundation website with donation management system, event scheduling, volunteer registration and community outreach campaign features.</p>
                         <div class="project-tech">
@@ -847,7 +849,6 @@
                     <div class="project-category">E-commerce</div>
                     <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project3-title">Chasma World</h3>
                         <p data-translate="project3-desc">Comprehensive e-commerce platform for eyewear with product management, shopping cart, payment processing, and integrated POS system for physical stores.</p>
                         <div class="project-tech">
@@ -867,7 +868,6 @@
                     <div class="project-category">Corporate</div>
                     <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>
                         <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>
                         <div class="project-tech">
@@ -887,7 +887,6 @@
                     <div class="project-category">Education</div>
                     <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project5-title">BAVIS</h3>
                         <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>
                         <div class="project-tech">
@@ -907,7 +906,6 @@
                     <div class="project-category">Healthcare</div>
                     <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project6-title">Dristi Eye Hospital</h3>
                         <p data-translate="project6-desc">Complete hospital management system with electronic medical records, appointment scheduling, and integrated website with online booking functionality.</p>
                         <div class="project-tech">
@@ -927,7 +925,6 @@
                     <div class="project-category">Healthcare</div>
                     <img src="assets/img/liveProjectLogo/doctuc-sq.png" alt="Doctuch" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/doctuc-hz.png" alt="Doctuch Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project7-title">Doctuch</h3>
                         <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>
                         <div class="project-tech">
@@ -947,7 +944,6 @@
                     <div class="project-category">Web Application</div>
                     <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project8-title">SearchDin</h3>
                         <p data-translate="project8-desc">Advanced search engine with intelligent indexing, natural language processing, and sophisticated search algorithms for improved search experiences.</p>
                         <div class="project-tech">
@@ -967,7 +963,6 @@
                     <div class="project-category">Medical Organization</div>
                     <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project9-title">BGS Glaucoma</h3>
                         <p data-translate="project9-desc">Professional organization platform for glaucoma specialists featuring member management, resource sharing, event coordination and educational content distribution.</p>
                         <div class="project-tech">
@@ -1017,7 +1012,6 @@
                     <div class="project-category">Healthcare</div>
                     <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project1-title">Vision Eye Hospital</h3>
                         <p data-translate="project1-desc">Complete hospital management system including patient records, appointment scheduling, POS system for optical shop, HR management and accounting modules.</p>
                         <div class="project-tech">
@@ -1037,7 +1031,6 @@
                     <div class="project-category">Non-profit</div>
                     <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project2-title">Vision Aid Foundation</h3>
                         <p data-translate="project2-desc">A foundation website with donation management system, event scheduling, volunteer registration and community outreach campaign features.</p>
                         <div class="project-tech">
@@ -1057,7 +1050,6 @@
                     <div class="project-category">E-commerce</div>
                     <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project3-title">Chasma World</h3>
                         <p data-translate="project3-desc">Comprehensive e-commerce platform for eyewear with product management, shopping cart, payment processing, and integrated POS system for physical stores.</p>
                         <div class="project-tech">
@@ -1077,7 +1069,6 @@
                     <div class="project-category">Corporate</div>
                     <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>
                         <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>
                         <div class="project-tech">
@@ -1097,7 +1088,6 @@
                     <div class="project-category">Education</div>
                     <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project5-title">BAVIS</h3>
                         <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>
                         <div class="project-tech">
@@ -1117,7 +1107,6 @@
                     <div class="project-category">Healthcare</div>
                     <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital" class="project-img">
                     <div class="project-content">
-                        <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital Logo" class="project-logo">
                         <h3 class="project-title" data-translate="project6-title">Dristi Eye Hospital</h3>
                         <p data-translate="project6-desc">Complete hospital management system with electronic medical records, appointment scheduling, and integrated website with online booking functionality.</p>
                         <div class="project-tech">
@@ -1146,7 +1135,6 @@
 <!--                    <img src="assets/img/liveProjectLogo/150x50?text=Doctuch+Logo" alt="Doctuch Logo" class="project-logo">-->
                 <img src="assets/img/liveProjectLogo/doctuc-sq.png" alt="Doctuch" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/doctuc-hz.png" alt="Doctuch Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project7-title">Doctuch</h3>
                     <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>
                     <div class="project-tech">
@@ -1166,7 +1154,6 @@
                 <div class="project-category">Web Application</div>
                 <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project8-title">SearchDin</h3>
                     <p data-translate="project8-desc">Advanced search engine with intelligent indexing, natural language processing, and sophisticated search algorithms for improved search experiences.</p>
                     <div class="project-tech">
@@ -1186,7 +1173,6 @@
                 <div class="project-category">Medical Organization</div>
                 <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma" class="project-img">
                 <div class="project-content">
-                    <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma Logo" class="project-logo">
                     <h3 class="project-title" data-translate="project9-title">BGS Glaucoma</h3>
                     <p data-translate="project9-desc">Professional organization platform for glaucoma specialists featuring member management, resource sharing, event coordination and educational content distribution.</p>
                     <div class="project-tech">
@@ -1299,7 +1285,7 @@
             'passionate': 'Passionate about creating elegant solutions',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Career Summary',
-            'summary-content': 'Seasoned software developer skilled in both frontend and backend development, particularly with PHP (Laravel) and JavaScript (Vue.js). Experienced in Linux-based server management, ERP systems, and healthcare tech solutions.',
+            'summary-content': 'Skilled Full-Stack Web Developer with strong experience in building scalable HMIS, POS, and business web applications using Vue.js, Laravel, CodeIgniter, and MySQL. Proficient in Ubuntu server management, Docker, and CI/CD pipelines with GitHub Actions. Focused on delivering clean, secure, and maintainable code across full development lifecycles.',
             'experience-title': 'Professional Experience',
             'job1-title': 'Executive IT Officer – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Aug 2021 – Present',
@@ -1371,7 +1357,7 @@
             'passionate': 'Passionné par la création de solutions élégantes',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Résumé de Carrière',
-            'summary-content': 'Développeur de logiciels expérimenté, spécialisé dans le développement frontend et backend, notamment avec PHP (Laravel) et JavaScript (Vue.js). Expérience dans la gestion de serveurs Linux, les systèmes ERP et les solutions technologiques de santé.',
+            'summary-content': 'Développeur Web Full-Stack qualifié avec une solide expérience dans la création de sites Web HMIS, POS et commerciaux évolutifs.applications utilisant Vue.js, Laravel, CodeIgniter et MySQL. Maîtrise de la gestion de serveur Ubuntu, Docker et pipelines CI/CD avec actions GitHub. Axé sur la fourniture de services propres, sécurisés et maintenables code tout au long des cycles de vie de développement complets.',
             'experience-title': 'Expérience Professionnelle',
             'job1-title': 'Responsable Informatique – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Août 2021 – Présent',
@@ -1443,7 +1429,7 @@
             'passionate': 'Apasionado por crear soluciones elegantes',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Resumen Profesional',
-            'summary-content': 'Desarrollador de software experimentado con habilidades en desarrollo frontend y backend, particularmente con PHP (Laravel) y JavaScript (Vue.js). Experiencia en gestión de servidores basados en Linux, sistemas ERP y soluciones tecnológicas para el sector salud.',
+            'summary-content': 'Kompetenta Reta Programisto kun forta sperto pri konstruado de skalebla HMIS, POS kaj komerca retejo aplikaĵoj uzante Vue.js, Laravel, CodeIgniter kaj MySQL. Kompetenta pri Ubuntu-servila administrado, Docker kaj CI/CD-duktoj kun GitHub Agoj. Enfokusigita al liverado de pura, sekura kaj konservebla kodon tra plenaj evoluaj vivocikloj.',
             'experience-title': 'Experiencia Profesional',
             'job1-title': 'Oficial de TI Ejecutivo – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Agosto 2021 – Presente',
@@ -1515,7 +1501,7 @@
             'passionate': '热衷于创造优雅的解决方案',
             'location': '达卡，孟加拉国',
             'summary-title': '职业概述',
-            'summary-content': '经验丰富的软件开发人员，擅长前端和后端开发，特别是PHP（Laravel）和JavaScript（Vue.js）。在基于Linux的服务器管理、ERP系统和医疗技术解决方案方面拥有丰富经验。',
+            'summary-content': '熟练的全栈 Web 开发人员，在构建可扩展的 HMIS、POS 和商业 Web 方面拥有丰富的经验 使用 Vue.js、Laravel、CodeIgniter 和 MySQL 的应用程序。精通Ubuntu服务器管理，Docker 以及带有 GitHub Actions 的 CI/CD 管道。专注于提供清洁、安全和可维护的 跨整个开发生命周期的代码。',
             'experience-title': '专业经验',
             'job1-title': '执行IT官员 – Vision Eye Hospital Pvt. Ltd',
             'job1-period': '2021年8月 – 至今',
@@ -1575,7 +1561,7 @@
             'passionate': 'エレガントなソリューション作成に情熱を持っています',
             'location': 'ダッカ、バングラデシュ',
             'summary-title': '経歴概要',
-            'summary-content': 'フロントエンドとバックエンド開発、特にPHP（Laravel）とJavaScript（Vue.js）に熟練したソフトウェア開発者。Linuxベースのサーバー管理、ERPシステム、医療技術ソリューションの経験があります。',
+            'summary-content': 'スケーラブルな HMIS、POS、ビジネス Web の構築に豊富な経験を持つ、熟練したフルスタック Web 開発者 Vue.js、Laravel、CodeIgniter、MySQL を使用するアプリケーション。 Ubuntuサーバー管理に精通しており、GitHub Actions を使用した Docker および CI/CD パイプライン。クリーン、安全、メンテナンス可能なサービスの提供に重点を置く開発ライフサイクル全体にわたるコード。',
             'experience-title': '職務経験',
             'job1-title': 'IT責任者 – Vision Eye Hospital Pvt. Ltd',
             'job1-period': '2021年8月 – 現在',
