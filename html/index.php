@@ -5,11 +5,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Professional portfolio of Md. Shiabul Islam, Software Developer specializing in PHP Laravel and Vue.js">
+    <meta name="description" content="Professional portfolio of Md. Shiabul Islam, Software Engineer specializing in PHP Laravel and Vue.js">
     <title>Md. Shiabul Islam - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="icon" type="image/png" href="assets/img/logo/favicon.png">
+
     <style>
         :root {
             --primary-color: #3498db;
@@ -685,9 +687,10 @@
             <i class="fas fa-moon"></i>
         </button>
 
+
         <img src="Shiabul.png" alt="Md. Shiabul Islam" class="profile-img">
         <h1 data-translate="name">Md. Shiabul Islam</h1>
-        <p data-translate="title"><strong>Software Developer (PHP Laravel & Vue.js)</strong></p>
+        <p data-translate="title"><strong>Software Engineer (PHP Laravel & Vue.js)</strong></p>
 
         <div class="animated-text">
             <span data-translate="passionate">Passionate about creating elegant solutions</span>
@@ -744,7 +747,7 @@
         </div>
 
         <div class="experience-item">
-            <p class="job-title" data-translate="job2-title">Junior Software Developer – Agile Tech Solution</p>
+            <p class="job-title" data-translate="job2-title">Junior Software Engineer – Agile Tech Solution</p>
             <p class="job-period"><i class="far fa-calendar-alt"></i> <span data-translate="job2-period">Jan 2020 – Aug 2021</span></p>
             <ul>
                 <li data-translate="job2-resp1">Started as Laravel Developer; contributed to backend systems and web solutions</li>
@@ -804,203 +807,203 @@
         <h2 data-translate="projects-title">Featured Projects</h2>
 
         <!-- Projects Slider -->
-        <div class="projects-slider-container">
-            <div class="projects-slider">
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Healthcare</div>
-                    <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project1-title">Vision Eye Hospital</h3>
-                        <p data-translate="project1-desc">Complete hospital management system including patient records, appointment scheduling, POS system for optical shop, HR management and accounting modules.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Vue.js</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://visioneyebd.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
+<!--        <div class="projects-slider-container">-->
+<!--            <div class="projects-slider">-->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Healthcare</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/vision.png" alt="Vision Eye Hospital" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project1-title">Vision Eye Hospital</h3>-->
+<!--                        <p data-translate="project1-desc">Complete hospital management system including patient records, appointment scheduling, POS system for optical shop, HR management and accounting modules.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Vue.js</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="http://visioneyebd.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Non-profit</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project2-title">Vision Aid Foundation</h3>-->
+<!--                        <p data-translate="project2-desc">A foundation website with donation management system, event scheduling, volunteer registration and community outreach campaign features.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>JavaScript</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://visionaidfoundation.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status ongoing">Ongoing</div>-->
+<!--                    <div class="project-category">E-commerce</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project3-title">Chasma World</h3>-->
+<!--                        <p data-translate="project3-desc">Comprehensive e-commerce platform for eyewear with product management, shopping cart, payment processing, and integrated POS system for physical stores.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Vue.js</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>Payment Gateway API</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="http://chasmaworld.com/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Corporate</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/hexagon.png" alt="Hexagon Global" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>-->
+<!--                        <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>HTML5</span>-->
+<!--                            <span>CSS3</span>-->
+<!--                            <span>JavaScript</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://www.hexagonglobal.net/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Education</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project5-title">BAVIS</h3>-->
+<!--                        <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>jQuery</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://bavis.visionbd.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Healthcare</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project6-title">Dristi Eye Hospital</h3>-->
+<!--                        <p data-translate="project6-desc">Complete hospital management system with electronic medical records, appointment scheduling, and integrated website with online booking functionality.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Vue.js</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="http://dristieyehospital.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Healthcare</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/doctuc-sq.png" alt="Doctuch" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project7-title">Doctuch</h3>-->
+<!--                        <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>jQuery</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="http://doctuch.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status ongoing">Ongoing</div>-->
+<!--                    <div class="project-category">Web Application</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project8-title">SearchDin</h3>-->
+<!--                        <p data-translate="project8-desc">Advanced search engine with intelligent indexing, natural language processing, and sophisticated search algorithms for improved search experiences.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>PHP</span>-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Vue.js</span>-->
+<!--                            <span>ElasticSearch</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="http://searchdin.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="slider-project-card">-->
+<!--                    <div class="project-status">Completed</div>-->
+<!--                    <div class="project-category">Medical Organization</div>-->
+<!--                    <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma" class="project-img">-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title" data-translate="project9-title">BGS Glaucoma</h3>-->
+<!--                        <p data-translate="project9-desc">Professional organization platform for glaucoma specialists featuring member management, resource sharing, event coordination and educational content distribution.</p>-->
+<!--                        <div class="project-tech">-->
+<!--                            <span>Laravel</span>-->
+<!--                            <span>Bootstrap</span>-->
+<!--                            <span>MySQL</span>-->
+<!--                            <span>jQuery</span>-->
+<!--                        </div>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://bgsglaucoma.com/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!---->
+<!--            <div class="slider-dots">-->
+<!--                <span class="slider-dot active"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--                <span class="slider-dot"></span>-->
+<!--            </div>-->
+<!--        </div>-->
 
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Non-profit</div>
-                    <img src="assets/img/liveProjectLogo/vaf.png" alt="Vision Aid Foundation" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project2-title">Vision Aid Foundation</h3>
-                        <p data-translate="project2-desc">A foundation website with donation management system, event scheduling, volunteer registration and community outreach campaign features.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Bootstrap</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://visionaidfoundation.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status ongoing">Ongoing</div>
-                    <div class="project-category">E-commerce</div>
-                    <img src="assets/img/liveProjectLogo/chasmaworld.png" alt="Chasma World" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project3-title">Chasma World</h3>
-                        <p data-translate="project3-desc">Comprehensive e-commerce platform for eyewear with product management, shopping cart, payment processing, and integrated POS system for physical stores.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Vue.js</span>
-                            <span>MySQL</span>
-                            <span>Payment Gateway API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://chasmaworld.com/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Corporate</div>
-                    <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>
-                        <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>
-                        <div class="project-tech">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://www.hexagonglobal.net/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Education</div>
-                    <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project5-title">BAVIS</h3>
-                        <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>jQuery</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://bavis.visionbd.org/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Healthcare</div>
-                    <img src="assets/img/liveProjectLogo/deh.png" alt="Dristi Eye Hospital" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project6-title">Dristi Eye Hospital</h3>
-                        <p data-translate="project6-desc">Complete hospital management system with electronic medical records, appointment scheduling, and integrated website with online booking functionality.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Vue.js</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://dristieyehospital.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Healthcare</div>
-                    <img src="assets/img/liveProjectLogo/doctuc-sq.png" alt="Doctuch" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project7-title">Doctuch</h3>
-                        <p data-translate="project7-desc">Comprehensive hospital management solution featuring doctor scheduling, patient management, billing, and administrative tools.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Bootstrap</span>
-                            <span>MySQL</span>
-                            <span>jQuery</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://doctuch.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status ongoing">Ongoing</div>
-                    <div class="project-category">Web Application</div>
-                    <img src="assets/img/liveProjectLogo/default.png" alt="SearchDin" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project8-title">SearchDin</h3>
-                        <p data-translate="project8-desc">Advanced search engine with intelligent indexing, natural language processing, and sophisticated search algorithms for improved search experiences.</p>
-                        <div class="project-tech">
-                            <span>PHP</span>
-                            <span>Laravel</span>
-                            <span>Vue.js</span>
-                            <span>ElasticSearch</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://searchdin.com" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-project-card">
-                    <div class="project-status">Completed</div>
-                    <div class="project-category">Medical Organization</div>
-                    <img src="assets/img/liveProjectLogo/bgs.png" alt="BGS Glaucoma" class="project-img">
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="project9-title">BGS Glaucoma</h3>
-                        <p data-translate="project9-desc">Professional organization platform for glaucoma specialists featuring member management, resource sharing, event coordination and educational content distribution.</p>
-                        <div class="project-tech">
-                            <span>Laravel</span>
-                            <span>Bootstrap</span>
-                            <span>MySQL</span>
-                            <span>jQuery</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://bgsglaucoma.com/" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank'); return false;"><i class="fas fa-link"></i> <span data-translate="view-live">View Live</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="slider-dots">
-                <span class="slider-dot active"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-                <span class="slider-dot"></span>
-            </div>
-        </div>
-
-        <button class="view-more-btn" data-translate="view-more">View More Projects</button>
+<!--        <button class="view-more-btn" data-translate="view-more">View More Projects</button>-->
 
         <!-- All Projects Grid (Initially Hidden) -->
         <div class="projects-grid">
             <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Healthcare</div>
-                    <img src="assets/img/liveProjectLogo/vision.jpg" alt="Vision Eye Hospital" class="project-img">
+                    <img src="assets/img/liveProjectLogo/vision.png" alt="Vision Eye Hospital" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title" data-translate="project1-title">Vision Eye Hospital</h3>
                         <p data-translate="project1-desc">Complete hospital management system including patient records, appointment scheduling, POS system for optical shop, HR management and accounting modules.</p>
@@ -1058,7 +1061,7 @@
                 <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Corporate</div>
-                    <img src="assets/img/liveProjectLogo/hexagon-logo.gif" alt="Hexagon Global" class="project-img">
+                    <img src="assets/img/liveProjectLogo/hexagon.png" alt="Hexagon Global" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title" data-translate="project4-title">Hexagon Global</h3>
                         <p data-translate="project4-desc">Corporate website with modern UI/UX design, responsive layout and interactive elements showcasing company services and portfolio.</p>
@@ -1077,7 +1080,7 @@
                 <div class="project-card">
                     <div class="project-status">Completed</div>
                     <div class="project-category">Education</div>
-                    <img src="assets/img/liveProjectLogo/default.png" alt="BAVIS" class="project-img">
+                    <img src="assets/img/liveProjectLogo/bavis.png" alt="BAVIS" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title" data-translate="project5-title">BAVIS</h3>
                         <p data-translate="project5-desc">Online examination platform with automated assessment, student management system, result processing and certificate generation features.</p>
@@ -1273,7 +1276,7 @@
     const translations = {
         'en': {
             'name': 'Md. Shiabul Islam',
-            'title': '<strong>Software Developer (PHP Laravel & Vue.js)</strong>',
+            'title': '<strong>Software Engineer (PHP Laravel & Vue.js)</strong>',
             'passionate': 'Passionate about creating elegant solutions',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Career Summary',
@@ -1285,7 +1288,7 @@
             'job1-resp2': 'Created and maintained official websites',
             'job1-resp3': 'Managed Ubuntu/Nginx servers ensuring 100% uptime',
             'job1-resp4': 'Automated systems, reducing manual workload by 30%',
-            'job2-title': 'Junior Software Developer – Agile Tech Solution',
+            'job2-title': 'Junior Software Engineer – Agile Tech Solution',
             'job2-period': 'Jan 2020 – Aug 2021',
             'job2-resp1': 'Started as Laravel Developer; contributed to backend systems and web solutions',
             'job2-resp2': 'Collaborated with senior developers on various client projects',
