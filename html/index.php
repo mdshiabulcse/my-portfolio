@@ -726,10 +726,14 @@
 
     <div class="section">
         <h2 data-translate="summary-title">Career Summary</h2>
-        <p data-translate="summary-content">Skilled Full-Stack Web Developer with strong experience in building scalable HMIS, POS, and business web
-            applications using Vue.js, Laravel, CodeIgniter, and MySQL. Proficient in Ubuntu server management,
-            Docker, and CI/CD pipelines with GitHub Actions. Focused on delivering clean, secure, and maintainable
-            code across full development lifecycles.
+        <p data-translate="summary-content">PHP Laravel Developer with 5 years of experience developing scalable web applications, including Health
+            Management Information Systems (HMIS) and Point-of-Sale (POS) platforms. Proven track record at
+            Vision Eye Hospital and Agile Tech Solution, delivering robust solutions that enhance operational
+            efficiency and user experience. Skilled in Laravel, Vue.js, MySQL, and RESTful APIs, with hands-on
+            experience in MySQL and PostgreSQL. Proficient in Ubuntu server management, Docker, and CI/CD
+            pipelines using GitHub Actions, with practical experience deploying and managing production
+            environments on DigitalOcean. Focused on writing clean, secure, and maintainable code, optimizing
+            performance, and collaborating effectively within agile development teams.
         </p>
     </div>
 
@@ -1215,7 +1219,7 @@
         <h2 data-translate="education-title">Education & Certifications</h2>
         <div class="education-item">
             <p class="job-title">B.Sc. in Computer Science & Engineering</p>
-            <p class="job-period">Southeast University | Aug 2022 – Present</p>
+            <p class="job-period">Southeast University | Aug 2022 – 2025</p>
         </div>
 
         <div class="education-item">
@@ -1280,7 +1284,7 @@
             'passionate': 'Passionate about creating elegant solutions',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Career Summary',
-            'summary-content': 'Skilled Full-Stack Web Developer with strong experience in building scalable HMIS, POS, and business web applications using Vue.js, Laravel, CodeIgniter, and MySQL. Proficient in Ubuntu server management, Docker, and CI/CD pipelines with GitHub Actions. Focused on delivering clean, secure, and maintainable code across full development lifecycles.',
+            'summary-content': 'PHP Laravel Developer with 5 years of experience developing scalable web applications, including Health Management Information Systems (HMIS) and Point-of-Sale (POS) platforms. Proven track record at Vision Eye Hospital and Agile Tech Solution, delivering robust solutions that enhance operational efficiency and user experience. Skilled in Laravel, Vue.js, MySQL, and RESTful APIs, with hands-on experience in MySQL and PostgreSQL. Proficient in Ubuntu server management, Docker, and CI/CD pipelines using GitHub Actions, with practical experience deploying and managing production environments on DigitalOcean. Focused on writing clean, secure, and maintainable code, optimizing performance, and collaborating effectively within agile development teams.',
             'experience-title': 'Professional Experience',
             'job1-title': 'Executive IT Officer – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Aug 2021 – Present',
@@ -1339,7 +1343,7 @@
             'testimonial2-position': 'Care Connect',
             'education-title': 'Education & Certifications',
             'edu1-degree': 'B.Sc. in Computer Science & Engineering',
-            'edu1-period': 'Southeast University | Aug 2022 – Present',
+            'edu1-period': 'Southeast University | Aug 2022 – 2025',
             'edu2-degree': 'Diploma in Computer Science',
             'edu2-period': 'Rajshahi Polytechnic Institute | Aug 2014 – 2018',
             'edu3-degree': 'PHP & Laravel Development',
@@ -1352,7 +1356,7 @@
             'passionate': 'Passionné par la création de solutions élégantes',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Résumé de Carrière',
-            'summary-content': 'Développeur Web Full-Stack qualifié avec une solide expérience dans la création de sites Web HMIS, POS et commerciaux évolutifs.applications utilisant Vue.js, Laravel, CodeIgniter et MySQL. Maîtrise de la gestion de serveur Ubuntu, Docker et pipelines CI/CD avec actions GitHub. Axé sur la fourniture de services propres, sécurisés et maintenables code tout au long des cycles de vie de développement complets.',
+            'summary-content': 'Développeur PHP Laravel avec 5 ans d expérience dans le développement d applications web évolutives, y compris les systèmes d information de gestion hospitalière (HMIS) et les plateformes de point de vente (POS). Antécédents éprouvés chez Vision Eye Hospital et Agile Tech Solution, livrant des solutions robustes qui améliorent l’efficacité opérationnelle et l’expérience utilisateur. Compétent en Laravel, Vue.js, MySQL et API RESTful, avec une expérience pratique en MySQL et PostgreSQL. Maîtrise de la gestion des serveurs Ubuntu, de Docker et des pipelines CI/CD utilisant GitHub Actions, avec une expérience concrète du déploiement et de la gestion d’environnements de production sur DigitalOcean. Axé sur l’écriture d’un code propre, sécurisé et maintenable, l’optimisation des performances et une collaboration efficace au sein d’équipes de développement agiles.',
             'experience-title': 'Expérience Professionnelle',
             'job1-title': 'Responsable Informatique – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Août 2021 – Présent',
@@ -1424,7 +1428,7 @@
             'passionate': 'Apasionado por crear soluciones elegantes',
             'location': 'Dhaka, Bangladesh',
             'summary-title': 'Resumen Profesional',
-            'summary-content': 'Kompetenta Reta Programisto kun forta sperto pri konstruado de skalebla HMIS, POS kaj komerca retejo aplikaĵoj uzante Vue.js, Laravel, CodeIgniter kaj MySQL. Kompetenta pri Ubuntu-servila administrado, Docker kaj CI/CD-duktoj kun GitHub Agoj. Enfokusigita al liverado de pura, sekura kaj konservebla kodon tra plenaj evoluaj vivocikloj.',
+            'summary-content': 'Desarrollador PHP Laravel con 5 años de experiencia en el desarrollo de aplicaciones web escalables, incluidos los Sistemas de Información de Gestión Hospitalaria (HMIS) y las plataformas de Punto de Venta (POS). Trayectoria comprobada en Vision Eye Hospital y Agile Tech Solution, entregando soluciones sólidas que mejoran la eficiencia operativa y la experiencia del usuario. Experto en Laravel, Vue.js, MySQL y API RESTful, con experiencia práctica en MySQL y PostgreSQL. Competente en la gestión de servidores Ubuntu, Docker y canalizaciones CI/CD utilizando GitHub Actions, con experiencia práctica en el despliegue y la gestión de entornos de producción en DigitalOcean. Enfocado en escribir código limpio, seguro y mantenible, optimizar el rendimiento y colaborar eficazmente dentro de equipos de desarrollo ágiles.',
             'experience-title': 'Experiencia Profesional',
             'job1-title': 'Oficial de TI Ejecutivo – Vision Eye Hospital Pvt. Ltd',
             'job1-period': 'Agosto 2021 – Presente',
@@ -1483,7 +1487,7 @@
             'testimonial2-position': 'Care Connect',
             'education-title': 'Educación y Certificaciones',
             'edu1-degree': 'Licenciatura en Ciencias de la Computación e Ingeniería',
-            'edu1-period': 'Universidad Southeast | Agosto 2022 – Presente',
+            'edu1-period': 'Universidad Southeast | Agosto 2022 – 2025',
             'edu2-degree': 'Diploma en Ciencias de la Computación',
             'edu2-period': 'Instituto Politécnico de Rajshahi | Agosto 2014 – 2018',
             'edu3-degree': 'Desarrollo PHP & Laravel',
